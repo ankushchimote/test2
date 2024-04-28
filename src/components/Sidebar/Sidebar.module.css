@@ -1,0 +1,51 @@
+.container{
+    margin-top:-200px;
+}
+
+
+.iconbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    width: 10%;
+    height: 90px;
+  }
+  .iconbutton:hover{
+    background-color: green;
+    color:white;
+    .icon{
+        color: white;
+    }
+    .text1{
+      color: white;
+    }
+  }
+  .icon {
+    font-size: 2em; /* Adjust the icon size as needed */
+    color: rgb(61,61,61);
+  }
+
+
+.cont1{
+    margin-top: 20px;
+    margin-left: 20px;
+}  
+
+.text{
+    font-size:24px;
+    font-family: math;
+    margin-left:28px;
+}
+.text1{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(169,167,167);
+}
+

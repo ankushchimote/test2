@@ -1,0 +1,80 @@
+.container{
+    
+}
+.cont1{
+    width:100%;
+    height: 80px;
+    background-color:rgb(17,20,54);
+    display: flex;
+}
+.inputSearch{
+    height:50px;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 330px;
+    border-radius:0px 30px 30px 0px;
+    border: 1px solid transparent; /* Ensure a default border is set */
+    outline: none;
+}
+.inputSearch:focus {
+    border: none;
+  }
+.patient{
+    margin-left: 630px;
+    margin-top: 15px;
+    height: 50px;
+    width: 140px;
+    border-radius:30px 0 0 30px;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.add{
+    height: 45px;
+    border-radius: 30px;
+    width:150px;
+    background-color: green;
+    color: white;
+    margin-left:35px;
+    margin-top:16px;
+    font-size:1.5em;
+    border: none;
+    cursor: pointer;
+}
+.notify{
+    font-size: 2.8em;
+    margin-left:350px; /*increase to move right side*/
+    margin-top: 15px;
+}
+.magni{
+    margin-left: -50px;
+    margin-top: 25px;
+    font-size: 1.8em;
+}
+.bale{
+    border-radius: 45px;
+    font-size:0.95em;
+    background-color: rgb(46,53,127);
+    cursor: pointer;
+}
+.avat{
+    margin-left: 30px;
+    color: yellow;
+    border-radius:45px;
+    border: none;
+    display: inline-block;
+    /* display: flex; */
+    flex-direction: row;
+    cursor: pointer;
+    position: fixed;
+}
+
+.dwn{
+   font-size: 0.8em;
+   margin-left: 5px;
+}
+
+
+
+
+
